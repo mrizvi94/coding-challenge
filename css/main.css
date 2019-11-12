@@ -1,0 +1,65 @@
+/*styling for button about and home*/
+.button1 {
+	color:green;
+	font-family:Optima,sans-serif;
+	margin:0.3em 0.3em 0.3em 0.3em;
+	text-decoration:none;
+	font-size: 20px;
+}
+#logo {
+	width:210px;
+	height:50px;
+	padding-left:14px;
+}
+
+span ,legend {
+	font-weight: bold;
+}
+/* top header styling */
+.nav-container {
+	overflow: hidden;
+}
+/* styling for logo */
+.nav-container a{
+	float: left;
+	padding: 14px 16px;
+}
+/* styling to make home and about buttons on right*/
+.menu-container {
+	float: right;
+	padding-right: 10px;
+}
+/* middle section of the page*/
+.section {
+	padding: 14px;
+}
+/* list of countries container styling*/
+#countries-container {
+	width: 25%;
+	float: left;
+	display: block;	
+	background-color:#90ee90;
+}
+/* individual country element in the list styling*/
+.countries {
+	font-family: Optima, sans-serif;
+	padding-bottom: 7px;
+}
+
+a {
+	text-decoration: none;
+}
+ 
+/* container for country details*/
+#content-container {
+	width: 75%;
+	float: right;
+	display: block;
+	font-family: Optima, sans-serif;
+	font-size: 20px;
+	display: none;
+
+}
+
+
+
