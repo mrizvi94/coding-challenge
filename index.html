@@ -1,1 +1,58 @@
 
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Webpage</title>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+
+	<body>
+		<div class="nav-container">
+			<a href="index.html"><img id="logo" src="img.png"/></a>
+			<div class="menu-container">
+				<a href="index.html" class="button1">Home</a>
+				<a href="index.html" class="button1">About</a>
+			</div>
+
+		</div>
+
+		<div class="section">
+			<div id="countries-container">
+				<div id="countries-list">
+				</div>
+			</div>
+
+			<div id="content-container">
+				<fieldset> 
+					<legend id="country-name"></legend>
+					<label for="country-capital"> Capital:</label>
+					<input id="country-capital" type="text" value=""><br>
+					<label> Region:</label>
+					 <input id="country-region" type="text" value=""><br>
+					<label> Subregion:</label>
+					 <input id="country-subregion" type="text" value=""><br>
+					<div class="calling-code-container">
+						<p> If you want to make a call to <span id="country-name-span"></span>, use the following country codes [<span id="calling-code-span"></span>]. Please note data rates may apply.</p>
+					</div>
+
+					<div class="currencies-container">
+						<p> Are you planning to shop? If so, this country uses <span id="currencies-span"></span> as the national currency. If you do not have this currency, there are locations for currency exchange.</p>
+					</div>
+
+					<div class="languages-container">
+						<p> If you are visiting for the first time you should at least know one of the following languages:
+							<span id="languages-span"></span>.</p>
+					</div>
+				</fieldset>
+
+				
+
+			</div>
+		</div>
+		<!-- <div class="footer">
+			<p>&copy; mehak.zehra LLC</p>
+		</div> -->
+	 
+	</body>
+	<script type="text/javascript" src="../js/main.js"></script>
+	</html>
